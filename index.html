@@ -1,80 +1,10 @@
 <!DOCTYPE html>
 <html lang='en'>
 	<head>
-		<title>Hextris</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui"/>
-		<link rel="icon" type="image/png" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="style/style.css">
-		<link rel="stylesheet" href="style/fa/css/font-awesome.min.css">
+		<script>
+			window.location = "http://hextris.github.io/hextris";
+		</script>
 	</head>
-        <body>
-		<canvas id="canvas"></canvas>
-		<div id='devtools' style='z-index:3;display:none;position:absolute;left:50%;width:400px;height:400px;top:50%;margin-top:-200px;margin-left:-200px;'>
-			<h2 id = 'clickToExit' style = 'background-color:#fff;color:#000'>Click to exit</h2>
-			<textarea id ='devtoolsText' style = 'height:300px;width:400px;'></textarea>
-		</div>
-		<div id="overlay" class="faded"></div>
-
-		<script type = 'text/javascript' src="vendor/hammer.min.js"></script>
-		<script type = 'text/javascript' src="vendor/jsonfn.min.js"></script>
-		<script type = 'text/javascript' src="vendor/keypress.min.js"></script>
-		<script type = 'text/javascript' src="vendor/jquery.js"></script>
-		<script type = 'text/javascript' src="js/save-state.js"></script>
-		<script type = 'text/javascript' src="js/view.js"></script>
-		<script type = 'text/javascript' src="js/wavegen.js"></script>
-		<script type = 'text/javascript' src="js/math.js"></script>
-		<script type = 'text/javascript' src="js/Block.js"></script>
-		<script type = 'text/javascript' src="js/Hex.js"></script>
-		<script type = 'text/javascript' src="js/Text.js"></script>
-		<script type = 'text/javascript' src="js/comboTimer.js"></script>
-		<script type = 'text/javascript' src="js/checking.js"></script>
-		<script type = 'text/javascript' src='js/update.js'></script>
-		<script type = 'text/javascript' src='js/render.js'></script>
-		<script type = 'text/javascript' src="js/input.js"></script>
-		<script type = 'text/javascript' src="js/main.js"></script>
-		<script type = 'text/javascript' src="js/initialization.js"></script>
-		<div id="attributions">Initially built by <a href="http://github.com/teamsnowman">@teamsnowman</a> at a 13 hr Hackathon<br>
-			Continued by <a href="http://github.com/garrettdreyfus">Garrett Finucane</a> & <a href="http://github.com/meadowstream" >Logan Engstrom</a> on <a href = 'http://github.com/hextris/hextris'>GitHub</a>
-		</div>
-		<div id='startBtn' style='position:absolute;left:40%;top:38%;height:25%;width:25%;z-index:99999999;cursor:pointer;'></div>
-		<div id="helpScreen" class = 'unselectable'>
-			<h1 class = 'instructions_body'>Instructions</h1>
-			<p class = 'instructions_body' id = 'inst_main_body'>
-				The goal of Hextris is to stop blocks from leaving the inside of the outer gray hexagon
-				<br>
-				<br>
-				Tap the left and right sides of the screen to rotate the Hexagon
-				<br>
-				<br>
-				Clear blocks by making 3 or more blocks of the same color touch
-				<br>
-				<br>
-				Get points by clearing blocks
-				<br>
-				<br>
-				Time left before your combo streak disappears is indicated shown by <span style='color:#f1c40f;'>the</span> <span style='color:#e74c3c'>colored</span> <span style='color:#3498db'>lines</span> <span style='color:#2ecc71'>in</span> the outer hexagon
-				<br>
-				<br>
-				Pause by pressing <i class = 'fa fa-pause'></i>
-				<br>
-				Restart by pressing <i class = 'fa fa-refresh'></i>
-				<br>
-				Bring up this menu by pressing <i class = 'fa fa-info-circle'></i>
-				<br>
-				<br>
-				<a href = 'url'>Found a bug? Go here</a>
-			</p>
-		</div>
-		<div id="openSideBar" class = 'helpText'><i class="fa fa-info-circle fa-lg"></i> <i class="fa fa-arrow-left"><b>  Help</b></i></div>
-		<div id="overlay" class="faded"></div>
-		<div id = 'pauseBtn'><i class="fa fa-pause fa-2x"></i></div>
-		<div id = 'restartBtn'><i class="fa fa-refresh fa-2x"></i></div>
-		<div id="bottombar">
-			<a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="hextris">Tweet</a>
-			<script>
-				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-			</script>
-			<iframe src="http://ghbtns.com/github-btn.html?user=Hextris&repo=Hextris&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20" onload='showbottombar()'></iframe>
-		</div>
+    <body>
     </body>
 </html>
